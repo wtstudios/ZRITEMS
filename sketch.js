@@ -35,7 +35,7 @@ function draw() {
       fill(220, 30, 30);
       break;
     }
-    text(zrapi.items[i].name + ' \nType: ' + zrapi.items[i].type + ' SKU: ' + zrapi.items[i].sku, 20, 50 + i * 30);
+    text(zrapi.items[i].name + ' \nType: ' + zrapi.items[i].type + ' SKU: ' + zrapi.items[i].sku + ' ID: ' + zrapi.items[i].id, 20, 50 + i * 30);
     stroke(255);
     line(10, 38 + i * 30, width - 10, 38 + i * 30);
   }
